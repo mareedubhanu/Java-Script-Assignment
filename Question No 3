@@ -1,0 +1,21 @@
+Write a JavaScript program to construct the following pattern, using anested for loop.
+
+Code:-
+var i, j;
+ 
+  for(i=5;i>=1;i--)
+   {
+   //inner loop
+    for(j=1;j<=i;j++)
+   {
+     document.write('*');
+    }
+     document.write('<br/>');
+   }
+Output:-
+
+* * * * * 
+* * * * 
+*  * * 
+*  *
+*
