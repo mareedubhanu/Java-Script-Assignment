@@ -1,0 +1,22 @@
+Write a JavaScript for a loop that will iterate from n times. For eachiteration, it will check if the current number is odd, even or prime, anddisplay a message on the screen.
+
+Code:-
+
+for (var x=0; x<=4; x++) {
+        if (x === 0) {
+                console.log(x +  " is even");
+        }
+        else if (x % 2 === 0) {
+                console.log(x + " is even");   
+        }
+        else {
+                console.log(x + " is odd");
+        }
+}     
+
+Output:-
+a."0 is even"
+b."1 is odd"
+c."2 is even and prime"
+d.“3 is odd and prime”
+e.“4 is even”
